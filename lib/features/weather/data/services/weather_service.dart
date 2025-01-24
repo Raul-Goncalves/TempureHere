@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'package:tempurehere/features/weather/data/services/location_service.dart';
 
 class WeatherService {
-  final String KeyApi = 'd22582dd94598c5e15477a0c5825f41f';
+  final String KeyApi = 'SUA API';
   final String Baseurl = 'https://api.openweathermap.org/data/2.5/weather/';
 
   Future<Map<String, dynamic>> fetchWeatherService({String? city}) async {
